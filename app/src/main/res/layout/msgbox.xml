@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/appbar_acts" />
+
+    <TextView
+        android:id="@+id/loading"
+        style="@style/textview_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        android:text="@string/loading">
+
+    </TextView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rc_msgbox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"></android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/loadmoretv"
+            style="@style/loadmore"
+            android:text="@string/loading" />
+
+    </FrameLayout>
+</LinearLayout>

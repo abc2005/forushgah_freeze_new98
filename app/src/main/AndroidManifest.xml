@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.persiandesigners.freeze"
+    android:installLocation="auto"
+
+    android:versionCode="4"
+    android:versionName="1.1.4">
+
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--<uses-permission android:name="android.permission.RECEIVE_SMS" />-->
+
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+
+    <permission
+        android:name="com.persiandesigners.freeze.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="com.persiandesigners.freeze.ParseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAuW0rhT02Wg7gdD0KK_RvbIZvN0xqv_1o" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+        <activity android:name="com.persiandesigners.freeze.Cats_digi"></activity>
+        <activity android:name="com.persiandesigners.freeze.Maps"></activity>
+        <!--android:theme="@android:style/Theme.NoTitleBar.Fullscreen" -->
+        <activity
+            android:name="com.persiandesigners.freeze.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreenTheme"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.persiandesigners.freeze.Blog"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.Shops"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.SabadAddress"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.UserProfile"
+            android:screenOrientation="portrait"></activity>
+
+        <receiver android:name="com.persiandesigners.freeze.Util.SmsListener">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.persiandesigners.freeze.Productha"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.Blog_Details"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.Profile"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.Order"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.Vijegi"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.persiandesigners.freeze.Register"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.NoInternet"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.persiandesigners.freeze.Detailss"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.Products"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.Cats"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.Page"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.SabadKharid_s1"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.SabadKharid_s2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.Sabad_Takmil"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.Contactus"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.PageTextView"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.Comments"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Search"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.google.android.gms.actions.SEARCH_ACTION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.persiandesigners.freeze.ForgetPass"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
+        <activity
+            android:name="com.persiandesigners.freeze.Subcats"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name=".Home"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <meta-data
+                android:name="cheshmakPush"
+                android:value="openActivityOnPush" />
+            <intent-filter>
+                <data
+                    android:host="returnapp"
+                    android:pathPattern=".*"
+                    android:scheme="shinaweb"></data>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListKharidItems"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <service android:name=".Util.FCMService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

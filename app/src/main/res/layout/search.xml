@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/appbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/beforesearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/magnifier" />
+
+            <TextView
+                android:id="@+id/tv1"
+                style="@style/textview_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="از منوی بالا محصول مورد نظر خود را جستجو کنید"
+                android:textSize="17sp" />
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_launcher"
+                android:visibility="gone" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/products"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:clipToPadding="false"
+                android:paddingBottom="50dp"></android.support.v7.widget.RecyclerView>
+
+
+        </FrameLayout>
+
+        <include layout="@layout/sabad_bottom"></include>
+    </FrameLayout>
+</LinearLayout>

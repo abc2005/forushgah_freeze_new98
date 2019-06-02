@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="@drawable/roundcorner"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:weightSum="3" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight="2" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:gravity="right"
+                android:layout_margin="3dp"
+                android:layout_marginTop="5dp"
+                android:textSize="@dimen/title"
+                android:layout_marginBottom="0dp"
+                android:text="TextView" />
+            <TextView
+                android:id="@+id/model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/title"
+                android:gravity="right"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_margin="3dp"
+                android:textSize="@dimen/others"
+                android:text="TextView" />
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/model"
+                android:gravity="right"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_margin="3dp"
+                android:textSize="@dimen/others"
+                android:text="TextView" />
+             <TextView
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_below="@+id/price"
+                android:gravity="left"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_margin="3dp"
+                android:textColor="#808080"
+                android:textSize="@dimen/times"
+                android:text="TextView" />
+        </RelativeLayout>
+
+       <!--  <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/a1" /> -->
+    </LinearLayout>
+
+</LinearLayout>

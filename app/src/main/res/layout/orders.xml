@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/appbar_acts" />
+
+    <TextView
+        android:id="@+id/et_bazaryab"
+        style="@style/edittexts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawableRight="@drawable/ic_user_gray"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:nextFocusDown="@+id/name"
+        android:text="انتخاب کاربر"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/textView1ss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/noOrders"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

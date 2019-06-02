@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <com.persiandesigners.freeze.Util.SquareImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/onvan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|top"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="10sp"
+        android:maxLines="2"
+        android:minLines="2"
+        android:padding="5dp"
+        android:singleLine="false"
+        android:textSize="13sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:includeFontPadding="false"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="#D42827"
+        android:textSize="14sp" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/add2cart" />
+
+</LinearLayout>

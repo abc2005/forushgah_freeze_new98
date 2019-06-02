@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alirezaafkar:sundatepicker:2.0.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sundatepicker-2.0.8.aar/0420bfadccf60fcb093dec1adc9fe765/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sundatepicker-2.0.8.aar/0420bfadccf60fcb093dec1adc9fe765/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alirezaafkar/sundatepicker/2.0.8/1c9f54140aaa74a3330230d5f74da2cc884c2feb/sundatepicker-2.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

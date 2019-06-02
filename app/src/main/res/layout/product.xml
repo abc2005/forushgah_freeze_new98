@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="7dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvonvan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#E43435"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/tvcat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#CCCCCC"></FrameLayout>
+
+        <TextView
+            android:id="@+id/tvcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#CCCCCC"></FrameLayout>
+
+
+        <TextView
+            android:id="@+id/tvpriceomde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#CCCCCC"></FrameLayout>
+
+        <TextView
+            android:id="@+id/tvprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="#7DBC89"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvtakfif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="#7DBC89"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvmojud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:gravity="right"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/lnmojud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="50">
+
+            <Button
+                android:id="@+id/tvsabadkharid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4E0E4B"
+                android:gravity="center"
+                android:text="Button"
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/tvkharid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add2cart" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

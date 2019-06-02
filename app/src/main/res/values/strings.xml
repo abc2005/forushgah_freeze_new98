@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--should be same with configution.php -> $FireBaseNotificationName  -->
+    <string name="app_name">جانبی موبایل</string>
+    <string name="notificationId" >freeze</string>
+
+    <string name="app_eng_name">Demo</string>
+    <string name="url">http://freeze.ir/</string>
+
+
+    <string name="loading">در حال دریافت اطلاعات....</string>
+    <string name="hint_mobile">شماره همراه</string>
+    <string name="hint_pass">رمز عبور</string>
+    <string name="login">ورود</string>
+    <string name="wrong_mobile">شماره موبایل 11 رقمی وارد کنید</string>
+    <string name="wrong_pass">رمز عبور حداقل میتواند 4 کارکتر باشد</string>
+    <string name="wrong_repass">تکرار رمز عبور حداقل میتواند 4 کارکتر باشد</string>
+    <string name="hint_repass">تکرار رمز عبور</string>
+    <string name="mobile_exist">شماره همراه وارد شده از قبل موجود است</string>
+    <string name="qoteJson">,]</string>
+    <string name="cats">دسته بندی ها</string>
+    <string name="listcats">لیست دسته بندی ها</string>
+    <string name="gridCount">2</string>
+
+    <string name="sabadkhrid">سبد خرید</string>
+    <string name="jamKolKharid">جمع کل خرید</string>
+    <string name="del">حذف</string>
+    <string name="gheymatVahed">قیمت واحد</string>
+    <string name="tedad">تعداد</string>
+    <string name="gheymatKol">قیمت کل</string>
+    <string name="toman">تومان</string>
+    <string name="namefamil">نام و نام خانوادگی</string>
+    <string name="mobile">موبایل</string>
+    <string name="tel">شماره تلفن</string>
+    <string name="adress">آدرس</string>
+    <string name="codeposti">کد پستی(اختیاری)</string>
+    <string name="tozihat">توضیحات</string>
+    <string name="wrong_name">نام و نام خانوادگی صحیح وارد کنید</string>
+    <string name="wrong_tel">شماره تماس صحیح وارد کنید</string>
+    <string name="wrong_adres">آدرس صحیح وارد کنید</string>
+    <string name="wrong_codeposti" >کد پستی 10 رقمی وارد کنید</string>
+    <string name="post_price">هزینه ارسال</string>
+    <string name="mahale">محله</string>
+    <string name="wrong_mahale">محله را انتخاب کنید</string>
+    <string name="jamfactor">مجموع هزینه فاکتور</string>
+    <string name="sendingData">در حال ارسال اطلاعات</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="contactus">تماس با ما</string>
+    <string name="problemload">اشکالی پیش آمده است .از صحت اتصال اینترنت اطمینان حاصل کنید</string>
+    <string name="nointernet">لطفا اتصال خود را به اینترنت بررسی فرمایید.</string>
+    <string name="checkagain">بررسی مجدد</string>
+    <string name="wait">لطفا صبر کنید</string>
+    <string name="noResult">نتیجه ای برای عبارت جستجو شده یافت نشد</string>
+    <string name="empty">آگهی به ثبت نرسیده است</string>
+
+    <string name="address">آدرس :</string>
+    <string name="email">ایمیل :</string>
+    <string name="t">تومان</string>
+    <string name="fromprice">1,000 ت </string>
+    <string name="toprice">10,000,000 ت</string>
+
+    <dimen name="count">10dp</dimen>
+
+    <string name="log">ورود</string>
+    <string name="reg">عضویت</string>
+    <string name="description">Media Controls</string>
+    <string name="exit">جهت خروج ، یکبار دیگر دکمه بازگشت را بزنید</string>
+    <string name="nogps">موقعیت جغرافیایی جهت نمایش نقشه مشخص نشده است</string>
+    <string name="problem">اشکالی به وجود آمده است . مجددا سعی کنید</string>
+    <string name="notInstalledGooglePlayService">جهت نمایش نقشه نیاز به برنامه Google Play Service دارید.</string>
+    <string name="dwnGPS">دانلود برنامه</string>
+    <string name="gpsoffline">جی پی اس را روشن کنید</string>
+    <string name="gpsfinding">در حال به دست اوردن موقعیت جغرافیایی</string>
+    <string name="gettingdata">در حال دریافت اطلاعات</string>
+
+    <string-array name="items">
+        <item>دسته بندی</item>
+        <item>جدیدترین ها</item>
+        <item>پرفروش ترین ها</item>
+        <item>علاقه مندی ها</item>
+        <item>وب سایت </item>
+        <item>تماس با ما</item>
+        <item>درباره ما</item>
+        <item>خروج</item>
+    </string-array>
+    <string-array name="itemlogin">
+        <item>خانه</item>
+        <!--for multisellers that has choose city-->
+        <item>انتخاب شهر</item>
+        <item>دسته بندی محصولات</item>
+        <item>سبدخرید</item>
+        <item>پیگیری سفارش</item><!-- 4 -->
+        <item>سابقه سفارش ها</item>
+        <item>فروش ویژه فروشگاه</item>
+        <item>پرفروش ترین ها</item>
+        <item>جدیدترین ها</item><!-- 7 -->
+        <item>علاقه مندی ها</item>
+        <item>درباره ما</item>
+        <item>تماس با ما</item>
+        <item>راهنمای خرید</item><!-- 10 -->
+        <item>پرسش های متداول</item>
+        <item>کانال تلگرام</item><!-- 12 -->
+        <!--<item>ویرایش پروفایل</item>-->
+        <item>خروج از بخش کاربری</item>
+    </string-array>
+    <string-array name="itemloginKifPul">
+        <item>خانه</item>
+        <!--for multisellers that has choose city-->
+        <item>انتخاب شهر</item>
+        <item>دسته بندی محصولات</item>
+        <item>سبدخرید</item>
+        <item>پیگیری سفارش</item><!-- 4 -->
+        <item>سابقه سفارش ها</item>
+        <item>فروش ویژه فروشگاه</item>
+        <item>پرفروش ترین ها</item>
+        <item>جدیدترین ها</item><!-- 7 -->
+        <item>علاقه مندی ها</item>
+        <item>درباره ما</item>
+        <item>تماس با ما</item>
+        <item>راهنمای خرید</item><!-- 10 -->
+        <item>پرسش های متداول</item>
+        <item>کانال تلگرام</item><!-- 12 -->
+        <item>افزایش موجودی کیف پول</item>
+        <item>مشاهده سابقه کیف پول</item>
+        <item>درخواست کالا</item>
+        <!--<item>ویرایش پروفایل</item>-->
+        <item>خروج از بخش کاربری</item>
+    </string-array>
+    <string-array name="itemnologin">
+        <item>خانه</item>
+        <!--for multisellers that has choose city-->
+        <item>انتخاب شهر</item>
+        <item>دسته بندی محصولات</item>
+        <item>سبدخرید</item>
+        <item>پیگیری سفارش</item><!-- 4 -->
+        <item>سابقه سفارش ها</item>
+        <item>فروش ویژه فروشگاه</item>
+        <item>پرفروش ترین ها</item>
+        <item>جدیدترین ها</item><!-- 7 -->
+        <item>علاقه مندی ها</item>
+        <item>درباره ما</item>
+        <item>تماس با ما</item>
+        <item>راهنمای خرید</item><!-- 10 -->
+        <item>پرسش های متداول</item>
+        <item>کانال تلگرام</item><!-- 12 -->
+
+    </string-array>
+    <string-array name="ostan">
+        <item>انتخاب استان</item>
+        <item>آذربايجان شرقي</item>
+        <item>آذربايجان غربي</item>
+        <item>اردبيل</item>
+        <item>اصفهان</item>
+        <item>ايلام</item>
+        <item>بوشهر</item>
+        <item>تهران</item>
+        <item>چهارمحال و بختياري</item>
+        <item>خراسان شمالي</item>
+        <item>خوزستان</item>
+        <item>زنجان</item>
+        <item>سمنان</item>
+        <item>سيستان و بلوچستان</item>
+        <item>فارس</item>
+        <item>قزوين</item>
+        <item>قم</item>
+        <item>کرمان</item>
+        <item>کرمانشاه</item>
+        <item>کهکيلويه و بويراحمد</item>
+        <item>گلستان</item>
+        <item>گيلان</item>
+        <item>لرستان</item>
+        <item>مازندران</item>
+        <item>مرکزي</item>
+        <item>هرمزگان</item>
+        <item>همدان</item>
+        <item>يزد</item>
+        <item>خراسان رضوي</item>
+        <item>البرز</item>
+    </string-array>
+
+    <string name="newadd">درج آگهی</string>
+    <string name="help">راهنما</string>
+    <string name="register">عضویت </string>
+    <string name="website">وب سایت</string>
+    <string name="gheymat">قیمت:</string>
+    <string name="saltolid">سال تولید:</string>
+    <string name="dates">تاریخ درج آگهی:</string>
+    <string name="notel">شماره تلفنی جهت تماس برای این آگهی به ثبت نرسیده است</string>
+    <string name="callprice">تماس بگیرید</string>
+    <string name="makecall">تماس تلفنی</string>
+    <string name="callinformation">اطلاعات تماس</string>
+    <string name="sendemail">ارسال اس ام اس</string>
+    <string name="enteremail">آدرس ایمیل به درستی وارد نشده است</string>
+    <string name="noadmail">آدرس ایمیل مشخص نشده است</string>
+    <string name="nosuptel">برنامه ای جهت ایجاد تماس تلفنی یافت نشد</string>
+    <string name="tozihatesh">توضیحات</string>
+    <string name="informations">اطلاعات بیشتر</string>
+    <string name="Comments">نظرات</string>
+    <string name="search">جستجو</string>
+    <string name="wrong_search">عبارت جستجو صحیح وارد کنید</string>
+    <string name="xml"><![CDATA[<?xml version=\"1.0\" encoding=\"UTF-8\"?>]]></string>
+    <string name="emptySabad">سبد خرید شما خالی است !</string>
+    <string name="forgetPass">رمز عبور خود را فراموش کرده ام</string>
+    <string name="enterMobile">شماره همراه خود را وارد کنید</string>
+    <string name="hint_email">آدرس ایمیل</string>
+    <string name="addedBeforeSabad">این محصول قبلا به سبد خرید شما اضافه شده است</string>
+    <string name="newPassSent">رمز عبور  به شماره همراه شما ارسال شد</string>
+    <string name="callNumber">07136500500</string>
+    <string name="notmojud">ناموجود</string>
+    <string name="onlyusers">تنها کاربران عضو میتوانند به این بخش دسترسی داشته باشند</string>
+    <string name="orders">سفارشات من</string>
+    <string name="korushe">[</string>
+    <string name="noOrders">سفارشی از طرف شما ثبت نشده است!</string>
+    <string name="nouser">کاربری با اطلاعات وارد شده یافت نشد</string>
+    <string name="newVersion">ورژن جدید برنامه آماده دانلود میباشد.لطفا از کافه بازار به روز رسانی انجام دهید</string>
+    <string name="bon">کد بن تخفیف</string>
+    <string name="majmu_takhfifha">مجموع تخفیف ها</string>
+    <string name="wrong_bon">کد بن وارد شده اشتباه است</string>
+    <string name="hint_moaref">شماره همراه معرف(اختیاری)</string>
+    <string name="wrong_moaref">شماره همراه معرف وارد شده اشتباه است</string>
+    <string name="wrong_maoref_entered">شماره همراه معرف وارد شده اشتباه است</string>
+
+
+    <string name="choose_ostan_shahrestan">انتخاب استان شهرستان</string>
+    <string name="ostan">استان</string>
+    <string name="choose">انتخاب </string>
+    <string name="shahrestan">شهرستان</string>
+    <string name="show">نمایش</string>
+    <string name="choose_ostan_shahrestan_err">استان و شهرستان را انتخاب کنید</string>
+    <string name="editprofile">ویرایش حساب کاربری</string>
+    <string name="noeqalpass">رمز عبور و تکرار رمز عبور مشابه نیستند</string>
+    <string name="multipleShops">به صورت همزمان نمیتوانید از چند فروشگاه خرید کنید</string>
+    <string name="ostanShahrestanSellers">ostanShahrestanSellers</string>
+
+
+    <string-array name="ostan_name">
+        <item>گیلان</item>
+        <item>مازندران</item>
+        <item>گلستان</item>
+        <item>تهران</item>
+        <item>سمنان</item>
+        <item>زنجان</item>
+        <item>قم</item>
+        <item>قزوین</item>
+        <item>اصفهان</item>
+        <item>كرمان</item>
+        <item>یزد</item>
+        <item>چهارمحال بختیاری</item>
+        <item>آذربایجان شرقی</item>
+        <item>آذربایجان غربی</item>
+        <item>اردبیل</item>
+        <item>خراسان رضوی</item>
+        <item>سیستان و بلوچستان</item>
+        <item>خوزستان</item>
+        <item>لرستان</item>
+        <item>فارس</item>
+        <item>كهكیلویه وبویراحمد</item>
+        <item>هرمزگان</item>
+        <item>بوشهر</item>
+        <item>همدان</item>
+        <item>كرمانشاه</item>
+        <item>ایلام</item>
+        <item>مركزی</item>
+        <item>كردستان</item>
+        <item>خراسان جنوبی</item>
+        <item>خراسان شمالی</item>
+        <item>البرز</item>
+    </string-array>
+    <string-array name="ostan_id">
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+    </string-array>
+
+</resources>

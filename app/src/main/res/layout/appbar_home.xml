@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:layout_margin="0dp"
+    android:background="@color/colorPrimary"
+    android:contentInsetLeft="3dp"
+    android:contentInsetRight="3dp"
+    android:contentInsetStart="3dp"
+    android:orientation="vertical"
+    android:padding="0dp"
+    app:contentInsetLeft="3dp"
+    app:contentInsetRight="3dp"
+    app:contentInsetStart="3dp"
+    app:layout_collapseMode="pin"
+    app:theme="@style/AppTheme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/sort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_action_filter"
+                android:visibility="gone" />
+
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_person"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imglogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:src="@drawable/logo" />
+
+            <ImageView
+                android:id="@+id/drawer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="4dp"
+                android:src="@drawable/drawer" />
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingBottom="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="4dp"
+                android:src="@mipmap/ic_back"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/title_toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/back"
+                android:gravity="right|center_vertical"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgsearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/img_sabad"
+                android:src="@drawable/ic_action_search" />
+
+            <ImageView
+                android:id="@+id/img_sabad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_cart_outline" />
+
+            <TextView
+                android:id="@+id/text_numkharid"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="7dp"
+                android:layout_toRightOf="@+id/imglike"
+                android:background="@drawable/circle_num_sabad"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="10dp"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0">
+
+            <AutoCompleteTextView
+                android:id="@+id/search_shop"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/searchet"
+                android:completionThreshold="1"
+                android:drawableRight="@drawable/searchblack"
+                android:dropDownWidth="match_parent"
+                android:ems="10"
+                android:gravity="right|center_vertical"
+                android:hint="جستجوی فروشگاه"
+                android:includeFontPadding="false"
+                android:paddingBottom="5dp"
+                android:paddingRight="9dp"
+                android:paddingTop="5dp"
+                android:singleLine="true"
+                android:textSize="18sp"
+                android:visibility="gone">
+
+                <requestFocus />
+            </AutoCompleteTextView>
+
+            <TextView
+                android:id="@+id/search_et"
+                style="@style/textstyle"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/searchet"
+                android:drawableRight="@drawable/searchblack"
+                android:gravity="right|center_vertical"
+                android:hint="جستجوی کالا"
+                android:paddingRight="9dp"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/lnsearchs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/barcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_barcode_scan" />
+
+                <ImageView
+                    android:id="@+id/voicesearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/ic_voice_search"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/search_et2"
+                    style="@style/textstyle"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/searchet"
+                    android:drawableRight="@drawable/searchred"
+                    android:gravity="right|center_vertical"
+                    android:imeOptions="actionSearch"
+                    android:paddingRight="9dp"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </FrameLayout>≈
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

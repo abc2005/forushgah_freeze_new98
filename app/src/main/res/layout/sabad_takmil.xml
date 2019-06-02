@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ln"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/appbar_acts" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ccc">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="#fff"
+                        card_view:cardCornerRadius="3dp"
+                        card_view:cardElevation="0dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#fff"
+                            android:padding="7dp">
+
+                            <TextView
+                                android:id="@+id/tvjamkharid"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:includeFontPadding="false"
+                                android:singleLine="true"
+                                android:text="جمع کل خرید(بدون تخفیف)"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/jamkharid"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:includeFontPadding="false"
+                                android:singleLine="true"
+                                android:textColor="@color/green2"
+                                android:textSize="16sp" />
+
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/lntax"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        card_view:cardBackgroundColor="#fff"
+                        card_view:cardCornerRadius="3dp"
+                        card_view:cardElevation="0dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#fff"
+                            android:padding="7dp">
+
+                            <TextView
+                                android:id="@+id/tvtax"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:includeFontPadding="false"
+                                android:singleLine="true"
+                                android:text="مالیات برارزش افزوده"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tax"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:includeFontPadding="false"
+                                android:singleLine="true"
+                                android:textColor="@color/green2"
+                                android:textSize="16sp" />
+
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="#fff"
+                        card_view:cardCornerRadius="3dp"
+                        card_view:cardElevation="0dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#fff"
+                            android:padding="7dp">
+
+                            <TextView
+                                android:id="@+id/tvpost"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:includeFontPadding="false"
+                                android:inputType="number"
+                                android:singleLine="true"
+                                android:text="@string/post_price"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/post"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:includeFontPadding="false"
+                                android:singleLine="true"
+                                android:textColor="@color/green2"
+                                android:textSize="16sp" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="#fff"
+                        card_view:cardCornerRadius="3dp"
+                        card_view:cardElevation="0dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#fff">
+
+                            <TextView
+                                android:id="@+id/tvbon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:includeFontPadding="false"
+                                android:inputType="number"
+                                android:padding="7dp"
+                                android:singleLine="true"
+                                android:text="@string/bon"
+                                android:textSize="16sp" />
+
+                            <EditText
+                                android:id="@+id/bon"
+                                android:layout_width="150dp"
+                                android:layout_height="47dp"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/ok"
+                                android:gravity="bottom|left"
+                                android:includeFontPadding="false"
+                                android:singleLine="true"
+                                android:textColor="#000"
+                                android:textSize="15sp" />
+
+                            <ImageView
+                                android:id="@+id/ok"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginTop="7dp"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/icon_ok" />
+
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical"
+                        card_view:cardBackgroundColor="#fff"
+                        card_view:cardCornerRadius="3dp"
+                        card_view:cardElevation="0dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#fff"
+                            android:padding="7dp">
+
+                            <TextView
+                                android:id="@+id/tvtakhfifha"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:includeFontPadding="false"
+                                android:singleLine="true"
+                                android:text="@string/majmu_takhfifha"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/takhfifha"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:includeFontPadding="false"
+                                android:singleLine="true"
+                                android:text="0 تومان"
+                                android:textColor="@color/red2"
+                                android:textSize="16sp" />
+
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#3A5475"
+                        android:padding="7dp">
+
+                        <TextView
+                            android:id="@+id/tvjamkol"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:includeFontPadding="false"
+                            android:singleLine="true"
+                            android:text="@string/jamfactor"
+                            android:textColor="#fff"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/jamkol"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:includeFontPadding="false"
+                            android:singleLine="true"
+                            android:textColor="#fff"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:minHeight="45dp"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    card_view:cardBackgroundColor="#fff"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:cardElevation="0dp">
+
+                    <CheckBox
+                        android:id="@+id/sendsimilar"
+                        style="@style/textview_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                        android:gravity="right|center_vertical"
+                        android:text="ارسال کالای مشابه در صورت عدم وجود"
+                        android:textSize="17sp" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:minHeight="45dp"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:visibility="gone"
+                    card_view:cardBackgroundColor="#fff"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:cardElevation="0dp">
+
+                    <TextView
+                        android:id="@+id/tvinfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:gravity="right"
+                        android:includeFontPadding="false"
+                        android:lineSpacingExtra="10dp"
+                        android:padding="5dp"
+                        android:singleLine="false"
+                        android:textSize="16sp" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                card_view:cardBackgroundColor="#fff"
+                card_view:cardCornerRadius="3dp"
+                card_view:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvs4"
+                        style="@style/textview_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="روش پرداخت : "
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="right"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <RadioButton
+                            android:id="@+id/cartkhan"
+                            style="@style/textview_title_single_right"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@null"
+                            android:drawableRight="@drawable/custom_radio_button"
+                            android:singleLine="false"
+                            android:text="کارتخوان در محل"
+                            android:textSize="17sp"
+                            android:visibility="gone" />
+
+
+                        <RadioButton
+                            android:id="@+id/kifpul"
+                            style="@style/textview_title_single_right"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@null"
+                            android:drawableRight="@drawable/custom_radio_button"
+                            android:singleLine="false"
+                            android:text="پرداخت کیف پول"
+                            android:textSize="17sp"
+                            android:visibility="gone" />
+
+                        <RadioButton
+                            android:id="@+id/darmahal"
+                            style="@style/textview_title_single_right"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@null"
+                            android:drawableRight="@drawable/custom_radio_button"
+                            android:singleLine="false"
+                            android:text="پرداخت در محل"
+                            android:textSize="17sp"
+                            android:visibility="gone" />
+
+                        <RadioButton
+                            android:id="@+id/online"
+                            style="@style/textview_title_single_right"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@null"
+                            android:drawableRight="@drawable/custom_radio_button"
+                            android:singleLine="false"
+                            android:text="پرداخت آنلاین"
+                            android:textSize="17sp"
+                            android:visibility="gone" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/lnmore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    card_view:cardBackgroundColor="#fff"
+                    card_view:cardCornerRadius="3dp"
+                    card_view:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvs5"
+                            style="@style/textview_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:text="روش ارسال : "
+                            android:textColor="#000"
+                            android:textSize="18sp" />
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:gravity="right"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <RadioButton
+                                android:id="@+id/zamandar"
+                                style="@style/textview_title_single_right"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:button="@null"
+                                android:drawableRight="@drawable/custom_radio_button"
+                                android:text="ارسال زمان دار"
+                                android:textSize="17sp" />
+
+                            <RadioButton
+                                android:id="@+id/fori"
+                                style="@style/textview_title_single_right"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:button="@null"
+                                android:checked="true"
+                                android:drawableRight="@drawable/custom_radio_button"
+                                android:text="ارسال فوری"
+                                android:textSize="17sp" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/lntime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:animateLayoutChanges="true"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    card_view:cardBackgroundColor="#fff"
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/tvdate"
+                                style="@style/textview_title"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="انتخاب تاریخ ارسال"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/tvs2"
+                                style="@style/textview_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="تاریخ ارسال"
+                                android:textColor="#000"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:orientation="horizontal">
+
+                            <Spinner
+                                android:id="@+id/sendtime"
+                                android:layout_width="0dp"
+                                android:layout_height="35dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"></Spinner>
+
+                            <TextView
+                                android:id="@+id/tvs1"
+                                style="@style/textview_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="زمان ارسال"
+                                android:textColor="#000"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/tozihat"
+                style="@style/edittexts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableRight="@drawable/ic_news"
+                android:gravity="right"
+                android:hint="@string/tozihat"
+                android:imeOptions="actionDone"
+                android:inputType="textMultiLine"
+                android:minLines="2" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_tozihat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"></android.support.design.widget.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/takmil"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/actionBarSize"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="2dp"
+                    android:background="#3A5475"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:text="ارسال سفارش"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

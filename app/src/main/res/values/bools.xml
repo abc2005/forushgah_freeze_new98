@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="show_maincats_on_page2">false</bool>
+    <bool name="isActiveKif">true</bool>
+    <bool name="only_users_can_buy">false</bool>
+    <bool name="verify_user_by_sms">true</bool>
+    <bool name="login_register_by_sms_no_pass_needed">false</bool>
+    <bool name="show_cats_as_grid">true</bool>
+    <bool name="show_cats_on_homepage">true</bool>
+    <bool name="getCustomerGpsCoord">false</bool>
+    <bool name="has_moaref">true</bool>
+    <bool name="has_notification">true</bool>
+
+    <bool name="category_like_digikala">true</bool>
+    <bool name="tozihat_in_details_page">false</bool>
+    <bool name="show_minues_plus_in_details_page">true</bool>
+    <bool name="display_product_recycles_homepage">false</bool>
+    <bool name="has_website">true</bool>
+    <bool name="show_category_in_product_activity">true</bool>
+    <bool name="has_range_off">false</bool>
+    <bool name="show_confirm_delivery_bt_in_orders">false</bool>
+    <bool name="get_product_brand_tedad_and_more">true</bool>
+    <bool name="post_pishtaz">@bool/sabad_ostan_shahrestan</bool>
+	<bool name="sabad_ostan_shahrestan">false</bool>
+    <bool name="has_mahale">true</bool>
+    <bool name="has_saat_kari">true</bool>
+    <bool name="has_choose_zaman_daryaft_sefaresh">true</bool>
+    <bool name="show_details_instead_open">false</bool>
+    <bool name="display_gif_as_fpage">false</bool>
+	<bool name="has_options">false</bool>
+	<bool name="display_num_on_bottom_sabad">false</bool>
+    <bool name="zoom_2finger_details_page">false</bool>
+    <bool name="has_offline_module">false</bool>
+    <bool name="enable_voice_search">false</bool>
+    <!--enable Permissions in Manifest-->
+    <bool name="choose_gps_location_on_map">true</bool>
+
+    <bool name="multiseller">false</bool>
+	<bool name="registerOnFpage">false</bool>
+    <!--register-->
+    <bool name="reg_tel">false</bool>
+    <bool name="reg_adres">false</bool>
+    <bool name="reg_codeposti">false</bool>
+    <bool name="reg_email">false</bool>
+    <bool name="reg_ostan_shahrestan">false</bool>	
+    <!--homepage-->
+	<bool name="homepage_cats_like_digikala">false</bool>
+    <bool name="show_category_digibar">false</bool>
+    <bool name="show_forush_vije">true</bool>
+    <bool name="show_porforush">true</bool>
+    <bool name="show_jadidtarin">true</bool>
+    <bool name="show_cat_button">false</bool>
+    <bool name="show_slideshow">true</bool>
+    <bool name="show_pishnahadvije">false</bool>
+    <bool name="displayDeleleOrder">false</bool>
+
+</resources>

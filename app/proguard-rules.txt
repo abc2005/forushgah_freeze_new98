@@ -1,0 +1,44 @@
+-keep class org.apache.http.** { *; }
+-keep class org.apache.commons.codec.** { *; }
+-keep class org.apache.commons.logging.** { *; }
+-keep class android.net.compatibility.** { *; }
+-keep class android.net.http.** { *; }
+-keep class javax.annotation.**{*;}
+-dontwarn javax.annotation.**
+-dontwarn org.apache**
+
+-keep public class android.net.http.SslError
+-keep public class android.webkit.WebViewClient
+-dontwarn android.webkit.WebView
+-dontwarn android.net.http.SslError
+-dontwarn android.webkit.WebViewClient
+
+-keep class cn.trinea.android.** { *; }
+-keepclassmembers class cn.trinea.android.** { *; }
+-dontwarn cn.trinea.android.**
+
+-dontwarn com.squareup.picasso.**
+
+-keep class com.parse.**{*;}
+-dontwarn com.parse.**
+-keep class org.slf4j.**{*;}
+-assumenosideeffects class android.util.Log {
+                                public static boolean isLoggable(java.lang.String, int);
+                                public static int v(...);
+                                public static int i(...);
+                                public static int w(...);
+                                public static int d(...);
+                                public static int e(...);
+                            }
+
+-keep class cn.trinea.android.** { *; }
+-keepclassmembers class cn.trinea.android.** { *; }
+-dontwarn cn.trinea.android.**
+-dontwarn org.slf4j.**
+
+-keep public class com.google.android.gms.* { public *; }
+-keep class com.google.android.gms.* { *; }
+-keep class com.google.* {  *; }
+-dontwarn com.google.**
+
+

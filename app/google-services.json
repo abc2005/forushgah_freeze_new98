@@ -1,0 +1,396 @@
+{
+  "project_info": {
+    "project_number": "414590550941",
+    "firebase_url": "https://fir-ef52e.firebaseio.com",
+    "project_id": "fir-ef52e",
+    "storage_bucket": "fir-ef52e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414590550941:android:1bf00eae804423ba",
+        "android_client_info": {
+          "package_name": "com.os24market.os24market"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414590550941-sjn4dsk5qhnu8l8o0r3lmuo867kkfut8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUZUV4zt25zSVmztLSomv5KCovlZs3D4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414590550941:android:0966da84b18a9114",
+        "android_client_info": {
+          "package_name": "com.persiandesigners.aftabmahtab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414590550941-sjn4dsk5qhnu8l8o0r3lmuo867kkfut8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUZUV4zt25zSVmztLSomv5KCovlZs3D4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414590550941:android:d81cea7a96a4ff9a",
+        "android_client_info": {
+          "package_name": "com.persiandesigners.asarehsho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414590550941-sjn4dsk5qhnu8l8o0r3lmuo867kkfut8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUZUV4zt25zSVmztLSomv5KCovlZs3D4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414590550941:android:e88542ea4c623d15",
+        "android_client_info": {
+          "package_name": "com.persiandesigners.babolshahr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414590550941-sjn4dsk5qhnu8l8o0r3lmuo867kkfut8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUZUV4zt25zSVmztLSomv5KCovlZs3D4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414590550941:android:f13f9b6d0e7e380b",
+        "android_client_info": {
+          "package_name": "com.persiandesigners.freeze"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414590550941-sjn4dsk5qhnu8l8o0r3lmuo867kkfut8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUZUV4zt25zSVmztLSomv5KCovlZs3D4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414590550941:android:b130c719bba4c028",
+        "android_client_info": {
+          "package_name": "com.persiandesigners.diku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414590550941-sjn4dsk5qhnu8l8o0r3lmuo867kkfut8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUZUV4zt25zSVmztLSomv5KCovlZs3D4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414590550941:android:2e16406aa3c2674f",
+        "android_client_info": {
+          "package_name": "com.persiandesigners.hyperhoma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414590550941-sjn4dsk5qhnu8l8o0r3lmuo867kkfut8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUZUV4zt25zSVmztLSomv5KCovlZs3D4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414590550941:android:dc333e58f19cd351",
+        "android_client_info": {
+          "package_name": "com.persiandesigners.marymarketaf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414590550941-sjn4dsk5qhnu8l8o0r3lmuo867kkfut8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUZUV4zt25zSVmztLSomv5KCovlZs3D4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414590550941:android:2ad4aab69da078ac",
+        "android_client_info": {
+          "package_name": "com.persiandesigners.os24market"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414590550941-sjn4dsk5qhnu8l8o0r3lmuo867kkfut8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUZUV4zt25zSVmztLSomv5KCovlZs3D4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414590550941:android:42ae92c042e7e11e",
+        "android_client_info": {
+          "package_name": "com.persiandesigners.zanbiltalae"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414590550941-sjn4dsk5qhnu8l8o0r3lmuo867kkfut8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUZUV4zt25zSVmztLSomv5KCovlZs3D4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414590550941:android:885c8efbfed9bdd0",
+        "android_client_info": {
+          "package_name": "com.persiandesignerss.koganshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414590550941-sjn4dsk5qhnu8l8o0r3lmuo867kkfut8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUZUV4zt25zSVmztLSomv5KCovlZs3D4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414590550941:android:514f8365f74a6f6c",
+        "android_client_info": {
+          "package_name": "ir.persiandesigners.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414590550941-u6sv0dt9hueac9atev3kg9p7s7aqd37t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ir.persiandesigners.firebase",
+            "certificate_hash": "5f35f18625570ff0633f68c95264133706abc81c"
+          }
+        },
+        {
+          "client_id": "414590550941-sjn4dsk5qhnu8l8o0r3lmuo867kkfut8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUZUV4zt25zSVmztLSomv5KCovlZs3D4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414590550941-sjn4dsk5qhnu8l8o0r3lmuo867kkfut8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

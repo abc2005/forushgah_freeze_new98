@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5CBD2"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/appbar_acts" />
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/round" />
+
+    <TextView
+        android:id="@+id/tvdesigner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4E0E4B"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:lineSpacingExtra="12dp"
+        android:paddingTop="10dp"
+        android:visibility="gone" />
+
+</LinearLayout>

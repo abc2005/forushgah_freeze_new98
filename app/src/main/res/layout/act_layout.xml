@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:id="@+id/act_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+        <!-- The navigation drawer -->
+
+        <LinearLayout
+            android:id="@+id/drawer"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="#fff"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/tvusernames"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="7dp"
+                android:paddingLeft="3dp"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:id="@+id/lnlogin"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="45"
+                    android:background="#B1277D"
+                    android:gravity="right|center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingRight="5dp" >
+
+                    <TextView
+                        android:id="@+id/tvlogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="right"
+                        android:includeFontPadding="true"
+                        android:paddingRight="10dp"
+                        android:text="tvsabad"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/login" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="55"
+                    android:background="#7A0D51"
+                    android:gravity="right|center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvregister"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="right"
+                        android:includeFontPadding="true"
+                        android:paddingRight="10dp"
+                        android:text="tvsabad"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/register" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/drawer_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:choiceMode="singleChoice"
+                android:divider="#F1F1F1"
+                android:dividerHeight="2dp"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

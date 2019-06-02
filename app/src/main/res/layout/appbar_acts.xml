@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:layout_margin="0dp"
+    android:background="@color/colorPrimary"
+    android:contentInsetLeft="3dp"
+    android:contentInsetRight="3dp"
+    android:contentInsetStart="3dp"
+    android:orientation="vertical"
+    android:padding="0dp"
+    app:contentInsetLeft="3dp"
+    app:contentInsetRight="3dp"
+    app:contentInsetStart="3dp"
+    app:theme="@style/AppTheme">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <ImageView
+            android:id="@+id/deleteall"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_recycle"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:visibility="gone"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/drawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:src="@drawable/drawer" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_back_white_24dp" />
+
+        <TextView
+            android:id="@+id/title_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="7dp"
+            android:layout_toLeftOf="@+id/back"
+            android:gravity="right|center_vertical"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_sabad"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_magnify" />
+
+        <ImageView
+            android:id="@+id/img_sabad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentLeft="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_cart_outline" />
+
+        <TextView
+            android:id="@+id/text_numkharid"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/imglike"
+            android:background="@drawable/circle_num_sabad"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:gravity="center"
+            android:lineSpacingExtra="10dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

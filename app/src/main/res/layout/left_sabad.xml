@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_layouts"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_lsabad_tv"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/colorPrimary"
+            android:gravity="right|center_vertical"
+            android:includeFontPadding="false"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text="بازبینی سبد خرید"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/lsabad_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="سبد خرید خالی است..."
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/list_lsabad"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="?android:attr/actionBarSize"
+            android:layout_weight="1"
+            android:divider="@null"
+            android:dividerHeight="2dp"></ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/lsabad_layout">
+
+                <TextView
+                    android:id="@+id/tv_lsabad_jamkol"
+                    style="@style/lsabad_tv_left"
+                    android:textColor="#E74A4E" />
+
+                <TextView
+                    android:id="@+id/tv_lsabad_jamkol_tv"
+                    style="@style/lsabad_tv_right"
+                    android:text="جمع قیمت مصرف کننده" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/lsabad_layout">
+
+                <TextView
+                    android:id="@+id/tv_lsabad_takhfif"
+                    style="@style/lsabad_tv_left"
+                    android:textColor="#37457B" />
+
+                <TextView
+                    android:id="@+id/tv_lsabad_takhfif_tv"
+                    style="@style/lsabad_tv_right"
+                    android:text="تخفیف شما در خرید" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/lsabad_layout">
+
+                <TextView
+                    android:id="@+id/tv_lsabad_jam"
+                    style="@style/lsabad_tv_left"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tv_lsabad_jam_tv"
+                    style="@style/lsabad_tv_right"
+                    android:text="مبلغ قابل پرداخت" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_lsabad_taied"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text="تایید سفارش"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </LinearLayout>
+    !
+</LinearLayout>

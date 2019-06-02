@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_reqkala_title"
+        style="@style/textview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="درخواست کالا"
+        android:textColor="#000"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/et_reqkala_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/roundedittext"
+        android:gravity="right|center_vertical"
+        android:hint="نام"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/et_reqkala_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/roundedittext"
+        android:gravity="right|center_vertical"
+        android:hint="شماره تماس"
+        android:inputType="number"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/et_reqkala_tozihat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/roundedittext"
+        android:gravity="right|top"
+        android:hint="توضیحات"
+        android:inputType="textMultiLine"
+        android:lineSpacingExtra="7dp"
+        android:minLines="3"
+        android:paddingRight="3dp"
+        android:textColor="#000" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_req_cancel"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="لغو درخواست"
+            android:textColor="#fff" />
+
+
+        <Button
+            android:id="@+id/bt_req_submit"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:background="@color/dark_blue"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="ارسال درخواست"
+            android:textColor="#fff" />
+    </LinearLayout>
+</LinearLayout>

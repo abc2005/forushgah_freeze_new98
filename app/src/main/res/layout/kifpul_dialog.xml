@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/kif_title"
+        style="@style/textview_title_single_right"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/colorPrimary"
+        android:text="افزایش اعتبار"
+        android:paddingRight="10dp"
+        android:textColor="#fff"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/kif_mojudi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/dark_blue"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/kif_mablagh"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:layout_margin="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/roundedittext"
+        android:hint="ورود مبلغ دلخواه ( تومان )"
+        android:inputType="number"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/kif_10"
+            style="@style/kif_button"
+            android:text="10,000 تومان" />
+
+        <Button
+            android:id="@+id/kif_20"
+            style="@style/kif_button"
+            android:text="20,000 تومان" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/kif_50"
+            style="@style/kif_button"
+            android:text="50,000 تومان" />
+
+        <Button
+            android:id="@+id/kif_100"
+            style="@style/kif_button"
+            android:text="100,000 تومان" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/kil_pay"
+        style="@style/kif_button"
+        android:layout_width="150dp"
+        android:layout_margin="20dp"
+        android:text="تایید و پرداخت" />
+
+</LinearLayout>
